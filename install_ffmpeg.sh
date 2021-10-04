@@ -37,7 +37,7 @@ if [ ! -e "$HOME/ffmpeg/libavcodec/libavcodec.a" ]; then
 
   git checkout b2728b4d6bc15e766f8f63e51f36d9bf6a47c88f
 
-  ./configure --prefix="$HOME/compiled" --enable-libx264 --enable-gnutls --enable-gpl --enable-static
+  ./configure --prefix="$HOME/compiled" --enable-libx264 --enable-gpl --enable-static
   make
   make install
 fi
